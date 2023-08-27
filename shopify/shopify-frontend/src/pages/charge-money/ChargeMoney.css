@@ -1,0 +1,29 @@
+.charge-money-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #252525;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.charge-container {
+    color: #252525;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30em;
+    /* height: 15em; */
+    border-radius: .5em;
+    padding: 1em;
+    align-items: center;
+    gap: 1em;
+}
+.charge-container button {
+    width: 80%;
+    background-color:#2fed62 ;
+    border: none;
+}

@@ -1,0 +1,76 @@
+.topbar-body{
+
+    height: auto;
+    /* border-bottom: .1em solid white; */
+    display: flex;
+    padding: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    align-items: center;
+    width: 100%;
+}
+.user-container{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+
+}
+#dropdown-basic-button{
+    margin-top: 2em;
+    
+}
+.user-container div {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    align-items: flex-end;
+    /* background-color: red; */
+    
+}
+
+.user-container img {
+    width: 8em;
+    height: 8em;
+    border-radius: .5em;
+}
+.search-wrapper {
+    width: 8em;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 2em;
+    padding: 1em;
+    transition: width  1s ease-in-out;
+    
+}
+.search-wrapper input{
+    width: 18em;
+    border: none;
+    opacity: 0;
+    font-size: 2em;
+
+    transition: opacity .1s ease-in-out;
+    transition-delay: 0.5s;
+    position: relative;
+    background-color: transparent;
+}
+.search-wrapper input:focus{
+    border: white;
+    outline: none;
+  
+}
+.search-wrapper:hover {
+    width: 40em;
+       
+}
+.search-wrapper:hover input {
+    opacity: 1;
+}
+@media screen and (max-width:1400px) {
+  
+  
+}

@@ -1,0 +1,140 @@
+.single-product-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 3em;
+    /* background-color: red; */
+}
+.single-product-container{
+    /* background-color: red; */
+    
+    width: 70%;
+    height: auto;
+}
+.product-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4em;
+    align-items: center;
+    width: 100%;
+}
+.product-wrapper .right {
+    text-align: left;
+ 
+
+}
+.buying-amount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5em;
+}
+.buying-amount input {
+    width: 3em;
+    font-size: 1.5em;
+}
+.add-buy-btn {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+   
+}
+.add-buy-btn button {
+    border: none;
+}
+.add-buy-btn .add-to-cart-btn {
+    background-color: #ed1552;
+    color: white;
+}
+.add-buy-btn .buy-btn {
+    background-color: #2fed62;
+    color: white;
+}
+.product-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+.product-description-container .choices {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    /* text-decoration: underline; */
+    
+}
+.product-description-container .choices h2{
+    cursor: pointer;
+}
+.product-description-container .choices .choosen{
+    position: relative;
+    color: #ff3c78;
+    
+}
+.product-description-container .choices .choosen:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: .3s;
+    animation: decor .4s;
+}
+@keyframes decor {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+.product-description-container .content {
+    text-align: left;
+    width: 80%;
+}
+.comment-input {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    height: 5em;
+
+}
+.comment-input input {
+    width: 100%;
+    font-size: 1.2em;
+    border-radius: 3em;
+    padding-left: 1em;
+    height: 4em;
+}
+.comment-input div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: .5em;
+}
+.comment-input button {
+    background-color: #2fed62;
+}
+.comment-display {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+@media screen and (max-width:1400px) {
+    .single-product-container {
+        width: 90%;
+    }
+}

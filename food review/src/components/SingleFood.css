@@ -1,0 +1,274 @@
+.singleFoodBody {
+    height: 48em;
+    width: 90em;
+    background-color: rgba(232, 229, 165, 0.7);
+    margin-left: -4.5em;
+    margin-right: 25em;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2em;
+    border: 0.2em solid white;
+
+}
+
+.boxChat {
+    margin-left: 7em;
+    background-color: white;
+    height: 70%;
+    width: 60%;
+    margin-top: 4em;
+    border-radius: 2em;
+    border: 0.2em solid black;
+    padding: 0.5em;
+    overflow-y: scroll;
+
+}
+
+#boxChat::-webkit-scrollbar {
+    display: none;
+}
+
+.features {
+    /* background-color: #f0e1b1; */
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2em;
+    justify-content: space-around;
+
+    /* border: 0.2em solid white; */
+}
+
+.featureBtn {
+    margin-left: 2em;
+    background-color: #f0e1b1;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 0.15em solid black;
+    width: 60%;
+    height: 5em;
+    transition: transform 0.5s;
+
+}
+
+.featureBtn:hover {
+    opacity: 0.7;
+    border: 0.2em solid white;
+    transform: translateX(2em);
+}
+
+.botLogo {
+    position: absolute;
+    z-index: 0;
+    margin-bottom: -5em;
+    margin-left: 8em;
+    border: 0.15em solid black;
+}
+
+.userChat {
+    margin-top: 1em;
+    width: 100%;
+
+    height: 3em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.userChatBubble {
+    height: auto;
+    width: 40%;
+    background-color: #f0e1b1;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0.5em;
+    align-items: center;
+    border: 0.2em solid white;
+    border-radius: 1em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.botChat {
+    margin-top: 1em;
+    width: 100%;
+
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.chatArea {
+    /* background-color: #f0e1b1; */
+    height: 96%;
+    width: 40%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    border-radius: 2em;
+    padding-top: 2em;
+    /* border: 0.2em solid white; */
+}
+
+.userInput {
+    margin-top: 1em;
+    position: relative;
+    width: 60%;
+    margin-left: 7em;
+    height: auto;
+    border-radius: 0.5em;
+    background-color: white;
+    border: 0.15em solid black;
+    padding: 0.5em;
+    color: black;
+    font-weight: bold;
+}
+
+#shops {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (min-width:1024px) and (max-width:1480px) {
+
+    .singleFoodBody:before,
+    .singleFoodBody:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .singleFoodBody {
+        height: 42em;
+        width: 100%;
+        background-color: #f0e1b1;
+        margin-right: 15em;
+        margin-left: 0.1em;
+        display: flex;
+        flex-direction: row;
+        border-radius: 2em;
+        border: 0.2em solid white;
+        background-color: rgba(232, 229, 165, 0.7);
+    }
+
+    .boxChat {
+        margin-left: 3em;
+        background-color: white;
+        height: 70%;
+        width: 60%;
+        margin-top: 4em;
+        border-radius: 2em;
+        border: 0.2em solid black;
+        padding: 0.5em;
+        overflow-y: scroll;
+
+    }
+
+    #boxChat::-webkit-scrollbar {
+        display: none;
+    }
+
+    .features {
+
+        height: 95%;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 2em;
+
+
+    }
+
+    .featureBtn {
+        background-color: #f0e1b1;
+        margin-top: 2em;
+        font-weight: bold;
+        font-size: 1.2em;
+        border: 0.15em solid black;
+        width: 60%;
+        height: 5em;
+
+    }
+
+    .featureBtn:hover {
+        opacity: 0.7;
+        border: 0.2em solid white;
+    }
+
+    .botLogo {
+        position: absolute;
+        z-index: 0;
+        margin-bottom: -5em;
+        margin-left: 20%;
+        border: 0.15em solid black;
+
+    }
+
+    .userChat {
+        margin-top: 1em;
+        width: 100%;
+
+        height: 3em;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .userChatBubble {
+        height: auto;
+        width: 40%;
+        background-color: #f0e1b1;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 0.5em;
+        align-items: center;
+        border: 0.2em solid white;
+        border-radius: 1em;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .botChat {
+        margin-top: 1em;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .chatArea {
+
+        height: 95%;
+        width: 40%;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        border-radius: 2em;
+        padding-top: 2em;
+
+    }
+
+    .userInput {
+        margin-top: 1em;
+        position: relative;
+        width: 60%;
+        margin-left: 3em;
+        height: auto;
+        border-radius: 0.5em;
+        background-color: white;
+        border: 0.15em solid black;
+        padding: 0.2em;
+        color: black;
+        font-weight: bold;
+        font-size: 1em;
+
+    }
+
+    #shops {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

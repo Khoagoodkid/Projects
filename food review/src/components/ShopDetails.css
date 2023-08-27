@@ -1,0 +1,231 @@
+.bodyShopDetails{
+    height: auto;
+    width: 40%;
+   
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.basicInfoContainer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    text-align: left;
+    font-size: 1.5em;
+    flex-direction: column;
+   
+}
+.basicInfo:first-child{
+    margin-top: 0;
+}
+.basicInfo{
+    margin-top: 0.5em;
+}
+.reviewContainer{
+    width: 100%;
+    height: 70%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+  
+}
+.reviewCard{
+    position: relative;
+    width: 80%;
+    height: 40%;
+    margin-top: 2em;
+    background-color: #fff;
+    border-radius: 1.5em;
+    box-shadow: 0 1em 3em rgba(0,0,0,0.15);
+    transition: 0.5s;
+ 
+}
+.reviewCard:hover{
+    height: 90%;
+}
+.imgBx{
+    position: absolute;
+    left: 50%;
+    top: -3em;
+    transform: translateX(-50%);
+    width: 10em;
+    height: 10em;
+  
+    border-radius: 2em;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.reviewCard:hover .imgBx{
+    width: 12em;
+    height: 12em;
+    z-index: 1;
+}
+.userAvatar{
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+
+}
+.reviewCard .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.reviewCard .content .userDetails{
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translateY(55%);
+}
+
+
+
+
+.reviewCard:hover .content .userDetails{
+    transform: translateY(0);
+}
+.reviewCard .content .userDetails h2 span{
+    font-size: 0.7em;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.arrow{
+    position: absolute;
+    margin-left: 13%;
+    margin-top:1em;
+    cursor: pointer;
+}
+.arrow:first-child{
+    cursor: pointer;
+    margin-left: -7em;
+}
+@media screen and (max-width:1366px) and (min-width:1024px) {
+    .bodyShopDetails{
+        height: auto;
+        width: 40%;
+        margin-left: -4em;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        
+    }
+  
+    .basicInfoContainer{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        text-align: left;
+        font-size: 1.3em;
+        flex-direction: column;
+      
+    }
+    .basicInfo:first-child{
+        margin-top: 0;
+    }
+    .basicInfo{
+        margin-top: 0.5em;
+    }
+    .reviewContainer{
+        width: 100%;
+        height: 70%;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1em;
+      
+    }
+    .reviewCard{
+        position: relative;
+        width: 80%;
+        height: 40%;
+        margin-top: 2em;
+        background-color: #fff;
+        border-radius: 1.5em;
+        box-shadow: 0 1em 3em rgba(0,0,0,0.15);
+        transition: 0.5s;
+        
+    }
+    .reviewCard:hover{
+        height: 90%;
+    }
+    .imgBx{
+        position: absolute;
+        left: 50%;
+        top: -3em;
+        transform: translateX(-50%);
+        width: 7em;
+        height: 7em;
+      
+        border-radius: 2em;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .reviewCard:hover .imgBx{
+        width: 9em;
+        height: 9em;
+        z-index: 1;
+    }
+    .userAvatar{
+        position: absolute;
+        top:0;
+        left:0;
+        object-fit: cover;
+    
+    }
+    .reviewCard .content{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+    }
+    .reviewCard .content .userDetails{
+        padding: 1em;
+        text-align: center;
+        width: 100%;
+        transition: 0.5s;
+        transform: translateY(70%);
+    }
+    
+    
+    
+    
+    .reviewCard:hover .content .userDetails{
+        transform: translateY(0);
+    }
+    .reviewCard .content .userDetails h2 span{
+        font-size: 0.7em;
+        font-weight: 500;
+        opacity: 0.5;
+    }
+    .arrow{
+       
+        margin-left: 15%;
+        margin-top:1em;
+        cursor: pointer;
+    }
+    .arrow:first-child{
+        cursor: pointer;
+        margin-left: -6em;
+    }
+}

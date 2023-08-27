@@ -1,0 +1,23 @@
+.comment-card{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    position: relative;
+   
+}
+.comment-card .comment-detail {
+    display: flex;
+    flex-direction: column;
+}
+.comment-detail .comment-auth {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.comment-detail .comment-auth span {
+    font-weight: bold;
+}
+.comment-detail .comment-content {
+    display: flex;
+    flex-direction: column;
+}

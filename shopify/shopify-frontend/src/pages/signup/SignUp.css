@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Zilla+Slab:wght@300;500&display=swap');
+.signup-body{
+    background-color: #252525;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-container{
+    background-color: #FFFDFA ;
+    width: 25em;
+    border-radius: .5em;
+    padding: 1em;
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Pacifico', cursive;
+    box-shadow: rgba(255, 253, 250, 0.4) -5px 5px, rgba(255, 253, 250, 0.3) -10px 10px, rgba(255, 253, 250, 0.2) -15px 15px, rgba(255, 253, 250, 0.1) -20px 20px, rgba(255, 253, 250, 0.05) -25px 25px;
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: red; */
+    padding-left: 3em;
+    font-family: 'Zilla Slab 500', serif;
+
+}
+
+.signup-form input {
+    font-size: 1.3em;
+    padding: .5em;
+    border-radius: .3em;
+    border: .1em solid #252525;
+    width: 80%;
+    font-family: 'Pacifico', cursive;
+}
+.robot-check {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    font-size: 1.2em;
+}
+.robot-check input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+  width: auto;
+}
+.signup-form button {
+    margin-top: 1em;
+    background-color: #252525;
+    color: #FFFDFA;
+    font-size: 1.3em;
+}
+.signup-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1em;
+    gap: 1em;
+}

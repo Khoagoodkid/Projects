@@ -1,0 +1,58 @@
+.budget-manager-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    
+}
+.budget-manager-wrapper{
+    padding: 1em;
+    width: 40em;
+    height: 20em;
+    background-color: #252525;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+}
+.budget-manager-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.budget-manager-container .bill-info {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.budget-manager-container .bill-info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+}
+.budget-manager-container .btn {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1em;
+    justify-content: center;
+    margin-top: 1em;
+    border: none;
+    z-index: 10;
+}
+.budget-manager-container .btn button {
+    width:40%;
+    border: none;
+}
+@media screen and (max-width:1400px) {
+   
+}

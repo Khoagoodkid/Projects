@@ -1,0 +1,76 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  /* background-repeat: no-repeat; */
+  /* background-size: 100% 100%;s */
+  /* background-position: 69%; */
+  background-color: #1a1a1a;
+    /* background-image: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/247242361_3130045203943742_5453166511037289901_n.jpg?stp=dst-jpg_s261x260&_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=TsF5sA0wzToAX_ygUU0&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ3_Ontk4Xxgjjci4qF-crWMeutk3Skojcr1ohNtbJIZg&oe=63807645'); */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

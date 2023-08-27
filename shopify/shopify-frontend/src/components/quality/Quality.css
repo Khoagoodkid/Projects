@@ -1,0 +1,29 @@
+.quality-body {
+    /* background-color: red; */
+}
+.quality-body h1, .quality-body hr {
+    color: #fdc807;
+}
+.quality-container {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+}
+.quality-card {
+    width: 20em;
+    
+    padding: .8em;
+    background-color: #FFFDFA ;
+    color: #252525;
+    border-radius:1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-family: 'Zilla Slab 500', serif;
+    
+}
+
+.quality-card img {
+    width: 10em;
+    height: 13em;
+}

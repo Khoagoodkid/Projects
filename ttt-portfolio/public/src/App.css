@@ -1,0 +1,17 @@
+.App {
+  margin: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #d3b393; */
+  background-color:
+    #c9a079;
+    height: auto;
+}
+*{
+  font-family:'Courier New', Courier, monospace;
+}

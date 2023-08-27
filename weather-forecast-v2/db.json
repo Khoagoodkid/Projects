@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+            "username": "khoa",
+            "email": "123@gmail.com",
+            "content": "aaaaa"
+        }
+    ],
+    "user": [
+        {
+            "username": "khoa",
+            "email": "123@gmail.com",
+            "pass": "123123"
+        }
+    ]
+}

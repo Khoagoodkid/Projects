@@ -1,0 +1,38 @@
+.instruct-body {
+    font-family: 'Zilla Slab 500', serif;
+    margin-top: 10em;
+}
+.instruct-body h1 {
+    color: #fdc807;
+}
+.instruct-container {
+   display: flex;
+   flex-direction: column;
+   /* background-color: red; */
+   align-items: center;
+}
+.instruct-body h1 {
+    font-family: 'Pacifico', cursive;
+}
+.instruct-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50em;
+    justify-content: flex-start;
+    text-align: end;
+    float: left;
+    gap: 1em;
+    font-size: 1.2em;
+}
+.instruct-card.reverse{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-align: start;
+    float: right;
+ 
+}
+.instruct-card .content {
+    width: 50%;
+    /* background-color: red; */
+}

@@ -1,0 +1,16 @@
+.memberCard { 
+    background-color: #322e47;
+    width: auto;
+    height: auto;
+    padding: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 1em;
+    border-radius: .5em;
+    /* border: .1em solid lightgray; */
+    box-shadow: 10px 10px 8px #888888;
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "todo": "set up our database",
+        "complete": false
+    },
+    {
+        "todo": "create a package.json",
+        "complete": true
+    },
+    {
+        "todo": "watch porn",
+        "complete": false
+    },
+    {
+        "todo": "play games",
+        "complete": false
+    },
+    {
+        "todo": "play games",
+        "complete": false
+    },
+    {
+        "todo": "play games",
+        "complete": false
+    },
+    {
+        "todo": "play games",
+        "complete": false
+    },
+    {
+        "todo": "play games",
+        "complete": false
+    },
+    {
+        "_": [
+            "add"
+        ],
+        "todo": "have breakfast",
+        "complete": false,
+        "$0": "index.js"
+    },
+    {
+        "todo": "play soccer",
+        "complete": true
+    },
+    {
+        "todo": "play soccer",
+        "complete": false
+    }
+]

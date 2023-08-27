@@ -1,0 +1,39 @@
+.bill-card-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: red; */
+    height: 10em;
+    gap: 1em;
+    text-align: start;
+    position: relative;
+}
+.bill-card-body .product-info {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.delivering-status, .cancel-btn {
+    position: absolute;
+}
+.delivering-status {
+    top: 1em;
+    right: 1em;
+}
+.cancel-btn{
+    right: 1em;
+    bottom: 1em;
+    background-color: #ff3c78;
+    color: white;
+    border: none;
+
+}
+.cancel-btn:hover {
+    opacity: .8;
+}
+.purchase-btn, .remove-btn {
+  
+    background-color: #ff3c78;
+    color: white;
+    border: none;
+}

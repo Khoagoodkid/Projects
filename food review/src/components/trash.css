@@ -1,0 +1,65 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-bottom: 5em;
+    margin-top: 10em;
+    margin-right: 2.5em;
+}
+
+.food-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30em;
+    width: 150em;
+    background-color: #f0e1b1;
+    margin-left: 5%;
+    border-radius: 10%;
+    border: 0.2em solid white;
+   
+    padding: 0.5em;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.food-card:hover {
+    scale: 110%;
+}
+
+.food-img {
+    width: 70%;
+    height: 50%;
+    border-radius: 5%;
+    border: 0.2em solid white;
+}
+.viewBtn{
+    background-color:   whitesmoke;
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 0.2em solid white;
+}
+.viewBtn:hover{
+    background-color: wheat;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    justify-content: center;
+    width: 100%;
+
+}
+.pageBtn{
+    margin-left: 2%;
+    background-color: #f0e1b1;
+    height: 3em;
+    border: 0.2em solid white;
+    
+}
+.pageBtn:hover{
+    background-color: whitesmoke;
+    border: 0.2em solid white;
+}

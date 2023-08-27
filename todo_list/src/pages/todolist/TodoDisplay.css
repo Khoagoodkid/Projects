@@ -1,0 +1,119 @@
+.todoDisplayContainer{
+    width: 40%;
+    height: 40em;
+    background-color: rgba(255,255,255,0.9);
+    padding: 3em;
+    overflow-y: scroll;
+    border-radius: 0.2em;
+}
+::-webkit-scrollbar{    
+    display: none;
+}
+.todoInput{
+    width: 80%;
+    height: 2em;
+    border: none;
+    border-radius: 0em;
+    box-shadow: 5px 10px 8px 10px rgba(0,0,0,0.5);
+    padding: 0.5em;
+    padding-left: 1em;
+    font-size: 1.5em;
+}
+.todoInput::placeholder{
+    color: gray;
+    font-family: 'Apple Chancery', 'cursive';
+    
+}
+.todoInput:focus{
+    outline: 0.2em solid rgba(255,255,255,0.3);
+   
+}
+.jobCard{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    border: 0.01em solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding : 0.8em;
+    font-size: 1.5em;
+    align-items: center;
+}
+.clearIcon{
+    cursor: pointer;
+}
+.features{
+    width: 92%;
+    height: 3em;
+    background-color: white;
+    border: 0.01em solid gray;
+    /* box-shadow: 0    1em  rgba(255,255,255,0.5),
+				0   4em rgba(255,255,255,0.5),
+				0  6em  rgba(255,255,255,0.5); */
+    padding: 1em;
+    
+}
+.clearAllBtn{
+    width: auto;
+    height: 100%;
+    background-color: gray;
+    padding: 0.5em;
+    float: right;
+    font-weight: bold;
+}
+.doneJobStyle{
+    text-decoration: line-through;
+    opacity: 0.5;
+    
+}
+.doneJobStyleCard{
+    background-color: green;
+}
+.doneAllBtn{
+    width: auto;
+    height: 100%;
+    background-color: limegreen;
+    padding: 0.5em;
+    float: left;
+    font-weight: bold;
+}
+@media  screen and (max-width:1366px) {
+    .todoDisplayContainer{
+        margin-left: 2em;
+        width: 50%;
+        height: 35em;
+    }
+    .todoInput{
+        width: 80%;
+        height: 1.5em;
+        border: none;
+        border-radius: 0em;
+        box-shadow: 5px 10px 8px 10px rgba(0,0,0,0.5);
+        padding: 0.5em;
+        padding-left: 1em;
+        font-size: 1.5em;
+    }
+    .jobCard{
+        width: 90%;
+        height: auto;
+        background-color: white;
+        border: 0.01em solid gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding : 0.8em;
+        font-size: 1.2em;
+        align-items: center;
+    }
+    .todoInput{
+        width: 80%;
+        height: 2em;
+        border: none;
+        border-radius: 0em;
+        box-shadow: 5px 10px 8px 10px rgba(0,0,0,0.5);
+        padding: 0.5em;
+        padding-left: 1em;
+        font-size: 1.2em;
+    }
+}

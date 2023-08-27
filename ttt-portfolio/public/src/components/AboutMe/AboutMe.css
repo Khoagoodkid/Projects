@@ -1,0 +1,70 @@
+.aboutMeBody {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #c9a079;
+    color: black;
+}
+
+.container1,.container2 {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    padding: 2em;
+    /* position: relative; */
+
+    padding-bottom: 0em;
+    
+}
+
+.container2 .technicalSkills {
+    margin-left: 3em;
+}
+.container1 div,.container2 div {
+    width: 40%;
+}
+
+.container1 .summary {
+    margin-left: 3em;
+}
+
+.platforms {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    right:0;
+    /* background-color: red; */
+    width: 40%;
+    top:40%;
+}
+
+ .platforms .platformsDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: aqua; */
+    width: 100%;
+    gap: 2em;
+
+}
+
+ .platforms .platformsDisplay .platformCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    /* background-color: aqua; */
+    width: auto;
+    height: auto;
+
+    /* background-color: red; */
+}
+.platformCard img{
+    width: 8em;
+    height: 8em;
+    border-radius: .5em;
+}

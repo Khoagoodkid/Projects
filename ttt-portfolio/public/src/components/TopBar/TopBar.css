@@ -1,0 +1,25 @@
+.topBarBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:  #d3b393;
+    padding: 1.5em;
+    font-size: 1.5em;
+}
+.topBarBody .webName {
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: .3em;
+}
+.topBarBody .navigators{
+    display: flex;
+    gap:2em;
+    font-weight: bold;
+
+}
+.topBarBody .navigators .nav {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
